@@ -11,7 +11,7 @@
     "reconnect": "[{0}] reconnecting...({1})",
     "reconnect_after": "[{0}] reconnect after 1 minutes",
     "another_login": "[{0}] session logined on another device.",
-    "error_message": "```---ERROR REPORT---\n\nVersion : {0}\nMessage : {1}\nError   : {2}\nJid     : {3}\ncommand : {4}\nPlatform : {5}```\n\n```-----``` *Made by LyFE with ❣* ```-----```",
+    "error_message": "```---ERROR REPORT---\n\nVersion : {0}\nMessage : {1}\nError   : {2}\nJid     : {3}\ncommand : {4}\nPlatform : {5}```\n\n```-----``` *Made by zenox with 🤍* ```-----```",
     "deleted_message": "           deletedMessage",
     "install_external_plugin": "[{0}] Installing External plugins...",
     "installed_external_plugin": "[{0}] External Plugins Installed",
@@ -158,12 +158,12 @@
     },
     "greetings": {
       "welcome_desc": "Send a welcome message to new members",
-      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "welcome_example": "Welcome is currently {0}\n\nFor more details contract owner",
       "welcome_enable": "_Welcome is now enabled_",
       "welcome_disable": "_Welcome is now disabled_",
       "welcome_delete": "_Welcome message deleted_",
       "goodbye_desc": "Send a goodbye message to members",
-      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "goodbye_example": "Goodbye is currently {0}\n\nFor more details contract owner",
       "goodbye_enable": "_Goodbye is now enabled_",
       "goodbye_disable": "_Goodbye is now disabled_",
       "goodbye_delete": "_Goodbye message deleted_"
@@ -174,7 +174,7 @@
     },
     "kick": {
       "desc": "Remove members from Group.",
-      "not_admin": "I'm not an admin, so I can't remove members.",
+      "not_admin": "I'm not an hashira, so I can't remove members.",
       "mention_user": "Please mention a user or reply to their message.",
       "admin": "The specified user is an admin and cannot be removed.",
       "kicking_all": "Kicking all non-admin members... ({0} members). Restart the bot if you want to stop."
@@ -187,16 +187,16 @@
       "failed": "Failed to add. An invite has been sent instead."
     },
     "promote": {
-      "desc": "Give admin role",
-      "not_admin": "I'm not an admin, so I can't modify roles.",
+      "desc": "Give hashira role",
+      "not_admin": "I'm not an hashira, so I can't modify roles.",
       "mention_user": "Please mention a user or reply to their message.",
-      "already_admin": "The user is already an admin."
+      "already_admin": "The user is already a hashira."
     },
     "demote": {
       "desc": "Remove admin role",
-      "not_admin": "I'm not an admin, so I can't modify roles.",
-      "mention_user": "Please mention a user or reply to their message.",
-      "not_admin_user": "The user is not an admin."
+      "not_admin": "I'm not an hashira, so I can't modify roles.",
+      "mention_user": "Please mention a slayer or reply to their message.",
+      "not_admin_user": "The user is not an hashira."
     },
     "invite": {
       "desc": "Get a group invite link",
@@ -358,7 +358,7 @@
       "usage": "Example: mention on | off | get\n(Reply to a message to target a specific user.)",
       "desc": "Configure and manage the mention feature for automated replies.",
       "not_activated": "Reply to mention not activated.",
-      "current_status": "Mention is {0}. For details, visit: https://levanter-plugins.vercel.app/faq",
+      "current_status": "Mention is {0}.",
       "activated": "Reply-to mention activated.",
       "deactivated": "Reply-to mention deactivated.",
       "updated": "Mention settings updated."
@@ -450,8 +450,8 @@
     },
     "ping": {
       "desc": "Check the bot's response time (latency).",
-      "ping_sent": "Ping!",
-      "pong": "Pong! Response time: {0} ms"
+      "ping_sent": "Pong!",
+      "pong": "〔 ɴᴇᴢᴜᴋᴏ'ꜱ ʟᴀᴛᴇɴᴄʏ 〕: {0} ms"
     },
     "pinterest": {
       "usage": "Example: pinterest <Pinterest URL>",
@@ -463,7 +463,7 @@
       "desc": "Install external plugins by providing a Gist URL containing the plugin code, or list all installed plugins.",
       "invalid": "Please provide a valid plugin URL or plugin name.",
       "not_installed": "No plugins are currently installed.",
-      "installed": "Newly installed plugins: {0}"
+      "installed": "Newly loaded plugins: {0}"
     },
     "remove": {
       "usage": "> Example:\b- remove <plugin_name>\n- remove all",
@@ -473,12 +473,12 @@
     },
     "reboot": {
       "desc": "Restart the bot instance using PM2.",
-      "starting": "Restarting..."
+      "starting": "ʀᴇʙᴏᴏᴛɪɴɢ..."
     },
     "fullpp": {
       "usage": "Example: fullpp (reply to an image)",
       "desc": "Set full-size profile picture.",
-      "updated": "Profile picture updated."
+      "updated": "> Profile picture updated."
     },
     "jid": {
       "desc": "Returns the JID of a user or chat. It checks for a mentioned user, a reply message, or defaults to the current chat's JID."
@@ -489,7 +489,7 @@
     "block": {
       "usage": "Example: block (reply to or mention a user)",
       "desc": "Blocks the specified user.",
-      "status": "Blocked"
+      "status": "_Blocked_"
     },
     "unblock": {
       "usage": "Example: unblock (reply to or mention a user)",
@@ -528,7 +528,7 @@
       "usage": "Example: rmbg (reply to an image)",
       "desc": "Removes the background from the replied image using the remove.bg API",
       "key": "To use this command, ensure you have signed up at remove.bg, verified your account, copied your API key, and set it using .setvar RMBG_KEY:<your_api_key> (e.g., .setvar RMBG_KEY:GWQ6jVy9MBpfYF9SnyG8jz8P). SIGNUP: https://accounts.kaleido.ai/users/sign_up | API KEY: https://www.remove.bg/dashboard#api-key",
-      "error": "Missing API key or image. Please set your API key and reply to an image."
+      "error": "Oops,Missing API key or image. Please set your API key and reply to an image."
     },
     "setschedule": {
       "usage": "> *Example :*\n- setschedule jid,min-hour-day-month (in 24 hour format, day and month optional)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (send message at 10 am, one time)",
@@ -620,7 +620,7 @@
       "usage": "Example: tog ping off",
       "desc": "Enable or disable a bot command.",
       "invalid": "Invalid input. Use: tog <command> on|off (e.g., tog ping off)",
-      "self_reference": "Did you really want to kill me?",
+      "self_reference": "Wrong command",
       "enabled": "{0} Enabled.",
       "disabled": "{0} Disabled."
     },
@@ -662,7 +662,7 @@
       "desc": "Display all stored variables in sorted order."
     },
     "vote": {
-      "usage": "> Example :\nvote q|What your favorite color?\no|😀|Blue\no|😊|Red",
+      "usage": "> Example :\nvote q|What your favorite color?\no|🌝|Blue\no|🌚|Orange",
       "desc": "Initiate a vote in a WhatsApp group.",
       "notes": "If no recipients are specified, the vote message will simply be sent to the current group.",
       "no_vote": "No votes available!",
@@ -713,7 +713,7 @@
       "desc": "Update the bot to the latest version.",
       "up_to_date": "Bot is already up-to-date. No updates available.",
       "updating": "Updating bot...",
-      "updated": "Bot has been successfully updated!"
+      "updated": "> Bot has been successfully updated!"
     }
   }
 }
